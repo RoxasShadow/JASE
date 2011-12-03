@@ -1,0 +1,108 @@
+#welcome {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+#welcome h2 {
+	color: gray;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* Inner box */
+.inner {
+	width: 950px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+/* Introduction */
+#intro {
+	background: #222222 url(../img/background.jpg);
+	height: 100%;
+	color: #888888;
+	position: relative;
+	z-index: 1;
+}
+
+/* Container of slides */
+#contents {
+	background: #ffffff;
+	color: #333333;
+	-webkit-box-shadow: 0px 0px 40px 0px #111111;
+	-moz-box-shadow: 0px 0px 40px 0px #111111;
+	box-shadow: 0px 0px 40px 0px #111111; 
+	position: relative;
+	z-index: 5;
+}
+
+/* Separator */
+.clear {
+	background: url(../img/hr.png) top center no-repeat;
+	padding-top: 60px;
+	border: none;
+}
+
+/* Navigator */
+#nav {
+	background: #000;
+ 	background: rgba(0,0,0,0.8); /* Trasparenza */
+	position: fixed;
+	z-index: 10;
+	top: 15px;
+	left: 0;
+	width: 100%;
+}
+
+#nav .inner {
+	padding: 10px 0;
+}
+
+#nav ul {
+	list-style: none;
+	text-align: center;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+#nav li {
+	display: inline;
+	font-family: 'Bevan', serif;
+	margin: 0 20px;
+	vertical-align: middle;
+}
+
+#nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#nav li a:hover {
+	color: #861A1A;
+}
+
+/* Footer */
+#footer {
+	background: #222222 url(../img/background.jpg);
+	color: #888888;
+	font-size: .7em;
+}
+
+#footer .inner {
+	padding: 10px 0;
+}
