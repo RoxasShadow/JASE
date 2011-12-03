@@ -28,6 +28,18 @@ body {
 	padding: 60px 0;
 }
 
+/* Slide highlightment */
+#contents .inner:hover {
+	width: 100%;
+	background-color: #FFFFD0;
+}
+
+/* That's a trick made by myself to set the background for all the div :) */
+#contents .inner:hover p {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 /* Introduction */
 #intro {
 	background: #222222 url(../img/background.jpg);
