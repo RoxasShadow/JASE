@@ -1,4 +1,26 @@
-{
-	"id": "3",
-	"text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut lacus at elit rutrum cursus id accumsan felis. Maecenas rutrum turpis vitae dolor rhoncus et commodo eros eleifend. Aliquam erat volutpat. Curabitur non leo sit amet ipsum consequat tempor. Cras pretium iaculis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer imperdiet ipsum ut tellus rhoncus condimentum.</p>"
-}
+<h2>Funzionamento &raquo; Macchine termiche</h2>
+<p>
+In fisica e in particolare in termodinamica una macchina termica &egrave; un dispositivo fisico o teorico che converte l'energia termica fornita dall'ambiente esterno(calore) in lavoro.<br />
+Nonostante ne esistano diversi tipi il loro funzionamento &egrave; riconducibile ad un dispositivo formato da gas contenuti in un cilindro con una parete mobile, lo stantuffo, che pone in rotazione un asse mediante un sistema biella-manovolla.<br />
+Quando il cilindro viene messo a contatto con una sorgente di calore il gas si espande, l'asse viene posto in rotazione e la macchina compie lavoro.<br />
+Poi il cilindro &egrave; messo a contatto con una sorgente a temperatura minore: il volume del gas diminuisce fino a quando il gas torna allo stato iniziale.<br />
+Ora il ciclo pu&ograve; ripetersi in modo indefinito.
+</p>
+
+<p>
+<b>In ogni ciclo la macchina ha prelevato calore da una sorgente calda, ha compiuto lavoro, e ha ceduto calore ad una sorgente fredda.</b><br />
+In generale il funzionamento di una macchina termica si basa su 3 passaggi fondamentali:<br />
+<ul>
+	<li>Il calore viene fornito alla macchina da un serbatoio caldo</li>
+	<li>Una parte del calore in entrata viene utilizzata per compiere il lavoro dalla sostanza di lavoro, ovvero dalla sostanza contenuta nel motore che compie realmente il lavoro.</li>
+	<li>Il calore residuo viene ceduto al serbatoio freddo.</li>
+</ul>
+</p>
+
+<p>
+Un <b>serbatoio</b> &egrave; un sistema che possiede una grande capacit&agrave; termica tanto da cedere o acquistare calore senza modificare la propria temperatura.<br />
+Il <b>rendimento</b> di una macchina termica &egrave; dato dal rapporto dell'intensit&agrave; del lavoro prodotto e l'intensit&agrave; del calore assorbito<br />
+<center><img src="resources/img/rendimento.png" alt="Rendimento macchina termica" title="Rendimento macchina termica" /></center><br />
+</p>
+
+<center><img src="resources/img/engine.gif" alt="Macchina di Carnot" title="Macchina di Carnot" /></center>

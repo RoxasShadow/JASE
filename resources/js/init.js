@@ -26,10 +26,10 @@ $(document).ready(function() {
 		$.ajax({
 			type: 'GET',
 			url: 'db/'+i+'.json',
-			dataType: 'json',
+			dataType: 'text',
 			async: false,
 			success: function(data) {
-				$('#contents').append('<div class="inner" id="'+data.id+'">'+data.text+'</div>');
+				$('#contents').append('<div class="inner slide" id="'+i+'">'+data+'</div>');
 				if(i < num_slides)
 					$('#contents').append('<div class="clear"></div>');
 			}
